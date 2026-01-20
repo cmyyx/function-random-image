@@ -370,10 +370,6 @@ async function handleRequest(request) {
       helpText += '• ?img=h - 获取横屏随机图片\n';
       helpText += '• ?img=v - 获取竖屏随机图片\n';
       helpText += '• ?img=ua - 根据设备类型自动选择图片\n';
-      helpText += '\n';
-      helpText += '图片目录:\n';
-      helpText += '• /img/h (横屏)\n';
-      helpText += '• /img/v (竖屏)\n';
       
       return new Response(helpText, {
         status: 200,
