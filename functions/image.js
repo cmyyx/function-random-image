@@ -1,9 +1,9 @@
 // 原始版本来自 二叉树树 (https://github.com/afoim/EdgeOne_Function_PicAPI/blob/main/functions/pic.js)
 
-// EdgeOne Pages Function export (disabled for ESA runtime)
-// export function onRequest(context) {
-//   return handleRequest(context.request);
-// }
+// EdgeOne Pages Function export
+export function onRequest(context) {
+  return handleRequest(context.request);
+}
 
 // ESA Edge Function export
 export default {

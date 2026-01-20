@@ -1,0 +1,10 @@
+{
+  "headers": [
+    {
+      "source": "/img/*.avif",
+      "headers": [
+        { "key": "Content-Type", "value": "image/avif" }
+      ]
+    }
+  ]
+}
