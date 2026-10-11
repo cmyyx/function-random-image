@@ -4,7 +4,8 @@
       "source": "/img/*.avif",
       "headers": [
         { "key": "Content-Type", "value": "image/avif" },
-        { "key": "Access-Control-Allow-Origin", "value": "*" }
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Cache-Control", "value": "no-cache" }
       ]
     },
     {
